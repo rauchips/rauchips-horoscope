@@ -1,0 +1,21 @@
+<h1>{{title}}</h1><br/>
+{{!-- <img src="/images/proj-js28-horoscope.gif" alt="ASCII ART"><br/> --}}
+<form method="POST" action="/">
+  <div class="mb-3">
+    <label class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name 😀">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Gender</label>
+    <select class="form-select" aria-label="Default select example" name="gender">
+      <option selected>Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Date of Birth</label>
+    <input type="date" class="form-control" id="DOB" name="DOB">
+  </div>
+  <button type="submit" class="btn btn-info">Discover your horoscope sign 🚀🌙</button>
+</form>
