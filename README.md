@@ -1,6 +1,6 @@
 # Project Title
 
-## Horoscope App <a href="https://rauchips-horoscope.herokuapp.com/">Heroku deploy</a>
+## Horoscope App <a href="https://rauchips-horoscope.herokuapp.com/">Live demo</a>
 
 ---
 
@@ -54,3 +54,12 @@ If the installation was successful, you should be able to run the following comm
 ## Running the project for testing with watch flag
 
     $ npm run test:watch
+## Description
+
+Input your name, gender and date of birth to discover your zodiac sign.
+
+## Motivation
+
+The motivation for this particular project came from two ideas;
+  1. A few weeks ago someone posed a very interesting question, they had a users model for their mongodb database and wanted to know how they could categorize their users zodiac signs or horoscopes based on the date of birth field that was included in the model. I gave them a theoretical solution on how to solve it but I don't know if they were able to implement it, but the thought of it fascinated me. I thought of two solutions, they could use an external api and input the DOB to get the horoscope or write a script within the folder structure of the project that could calculate this as well then for either solutions they could use a pre save method for mongoose to save the zodiac sign once they found it.
+  2. When I went through the test sent to me I noticed that it converted the input to ascii the passed it through a function that was able to give a display either green or red. I went ahead and did research on ascii and thought of how I could incooperate it into my project.
