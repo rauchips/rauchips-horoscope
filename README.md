@@ -1,6 +1,6 @@
 # Project Title
 
-## Horoscope App
+## Horoscope App <a href="https://rauchips-horoscope.herokuapp.com/">Heroku deploy</a>
 
 ---
 
