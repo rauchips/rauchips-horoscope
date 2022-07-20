@@ -1,6 +1,5 @@
 body {
   font-family: "Lucida Console", "Courier New", monospace;
-  /* background-image: url('../images/1291899.jpg'); */
   background-color: whitesmoke;
   position: absolute;
   top: 50%;
@@ -17,4 +16,14 @@ h1 {
   color: #0dcaf0;
   font-weight: bold;
   font-size: 59px
+}
+
+h2 {
+  text-align: center;
+  color: #0dcaf0;
+}
+
+.ascii-art {
+  white-space: pre;
+  text-align: center;
 }

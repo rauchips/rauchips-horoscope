@@ -50,6 +50,7 @@ async function postHomePage (req, res, next) {
         return res.status(400).json({ message: 'Unable to form ascii art' })
       }
       console.log(ascii)
+      console.log(data.description)
       return res.status(200).render('sign', { title: name, name, sign: ascii, description: data.description, current_date: data.current_date, lucky_number: toAscii(zodiac) })
     })
   } catch (error) {
